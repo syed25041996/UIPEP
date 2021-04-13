@@ -1,0 +1,60 @@
+.place1 img{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.place2 img{
+    height: 400px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.place3 img{
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.place1 section{
+    float: left;
+    margin-right: 50px;
+}
+
+.place1 figcaption{
+    position: relative;
+    left: 60%
+}
+
+.place2 section{
+    float: left;
+    margin-right: 50px;
+}
+
+.place2 figcaption{
+    position: relative;
+    left: 60%
+}
+
+.place3 section{
+    float: left;
+    margin-right: 50px;
+}
+
+.place3 figcaption{
+    position: relative;
+    left: 60%
+}
+
+.place1 article{
+    border: 1px solid black;
+    width: 50%;
+}
+
+footer{
+    margin:0 600px;
+}
+
+header{
+    text-align: left;
+}
