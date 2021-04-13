@@ -1,60 +1,103 @@
-.place1 img{
-    height: 400px;
-    width: 400px;
-    margin-left: 100px;
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
 }
 
-.place2 img{
-    height: 400px;
-    width: 400px;
-    margin-left: 200px;
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
 }
 
-.place3 img{
-    height: 400px;
-    width: 400px;
-    margin-left: 10px;
-}
+article{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-.place1 section{
-    float: left;
-    margin-right: 50px;
-}
-
-.place1 figcaption{
-    position: relative;
-    left: 60%
-}
-
-.place2 section{
-    float: left;
-    margin-right: 50px;
-}
-
-.place2 figcaption{
-    position: relative;
-    left: 60%
-}
-
-.place3 section{
-    float: left;
-    margin-right: 50px;
-}
-
-.place3 figcaption{
-    position: relative;
-    left: 60%
-}
-
-.place1 article{
-    border: 1px solid black;
-    width: 50%;
 }
 
 footer{
-    margin:0 600px;
+    text-align: center;
 }
 
-header{
-    text-align: left;
+
+.place1,.place2,.place3{
+    display: flex;
+}
+
+.place2 img, .place3 img{
+    width: 800px;
+    height: 448px;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+    .place1,.place2,.place3{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+    
+    .place1 img, .place2 img, .place3 img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    body {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+    }
+    
+    article{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+
+    footer{
+        text-align: center;
+    }
+
+
+    
 }
