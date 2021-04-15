@@ -1,0 +1,29 @@
+td,th{
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 500%;
+    background: radial-gradient(lightgreen,green, Darkgreen);
+}
+
+img{
+    width: 100%;
+
+}
+
+.games{
+    background: linear-gradient(180deg, aqua,green);
+}
+
+.mobiles table{
+    background: linear-gradient(45deg, grey, Darkgreen);
+    margin-left: 100px;
+}
+
+.mobiles{
+    background: linear-gradient(-55deg,aqua,lightgreen,white,pink,lightblue,white);
+}
+
