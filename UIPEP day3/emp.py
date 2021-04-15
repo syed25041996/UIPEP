@@ -1,11 +1,12 @@
-""" Create a class of employess and perform operations such as add,delete and print in it """
+""" Create a class of employess and perform operations such as add,delete and print in it
+Inheritance concept is covered in this """
 
 class Employee:
 
-    company = "UIPEP"
+    company = "UIPEP"  #Class variables
 
     def __init__(self, name, age, department):
-        self.name = name
+        self.name = name            #Instance variables
         self.age = age
         self.department = department
 
@@ -41,14 +42,17 @@ class newEmployee(Employee):
             print(f"{emp.name} {emp.age} {emp.department}")
 
 
-# a, b, c = input("Enter the values(name,age and dept): ").split()
 e1 = newEmployee("Syed",21,"Developer")
 e2 = newEmployee("Bob",22,"Tester")
 e3 = newEmployee("Susan",20,"HR")
-# e1.info_emp()
-# e1.comp_info()
+e1.info_emp()
+e1.comp_info()
+e2.info_emp()
+e2.comp_info()
+print("<=====================>")
 e1.add_employee(e2)
 e1.add_employee(e3)
 e1.show_updated_employees()
 e1.del_employee(e3)
+print("<=====================>")
 e1.show_updated_employees()
