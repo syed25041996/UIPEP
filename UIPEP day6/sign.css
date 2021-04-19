@@ -1,0 +1,85 @@
+.container{
+    position: relative;
+    margin-left: 300px;
+    padding-left: 30px;
+    color: whitesmoke;
+    
+}
+
+.container h5{
+    position: relative;
+    right: 400px;
+    height: 60px;
+    width: 300px;
+    padding: 5px;
+    color: lightgray;
+    background: linear-gradient(50deg, green,green);
+    border-radius: 15px;
+    animation-name: righty;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+/* #background-2{
+    background: linear-gradient(60deg, #00ffff, #00ffbf);
+    z-index: -1;
+    position: absolute;
+    margin-left: 900px;
+    width: 300px;
+    height: 720px;
+    opacity: 0.6;
+}
+
+#background-1{
+    background: linear-gradient(60deg, grey 30%, grey 30%);
+    z-index: -1;
+    position: absolute;
+    margin-left: 150px;
+    top: 50px;
+    width: 300px;
+    height: 500px;
+    opacity: 0.6;
+} */
+
+button{
+    width: 90px;
+}
+
+button:hover{
+    transform: scale(1.5,1.5);
+}
+
+#intro p{
+    width: 400px;
+    height: 100px;
+}
+
+#intro{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: wheat;
+    font-size: 20px;
+}
+
+.outer{
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: fit-content;
+    width: fit-content;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+@keyframes righty {
+    from{left: 0px;}
+    to {right: 200px;}  
+}
