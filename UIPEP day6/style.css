@@ -1,0 +1,72 @@
+.profile{
+    display: flex;
+}
+
+.prof{
+    margin-right: 150px;
+}
+
+.skills{
+    display: flex;
+}
+
+.skills h4{
+    margin-right: 150px;
+}
+
+.exp{
+    display: flex;
+}
+
+.exp h4{
+    margin-right: 100px;
+}
+
+.studies{
+    display: flex;
+}
+
+.studies h4{
+    margin-right: 120px;
+}
+
+#reva{
+    margin-right: 50px;
+}
+
+.container,.container-sm{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Zen Dots', serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 72px;
+    text-shadow: 0 0 5px #FF0000;
+  }
+
+ul,p,.e,.edu{
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
+}
+
+h4{
+    font-family: 'Patua One', serif;
+}
+
+body{
+    background: linear-gradient(-60deg, #00e8ff 30%, aqua 30%);
+}
+
+#images img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px ;
+    margin-left: 200px;
+}
+
+h5{
+    float: left;
+    font-size: 28px;
+}
