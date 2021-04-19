@@ -89,6 +89,14 @@ button:hover{
     opacity: 0.5;
 }
 
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 68px;
+}
+
 @keyframes righty {
     from{left: 0px;}
     to {right: 200px;}  
