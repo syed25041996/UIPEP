@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat+Brush&family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F5F5DC;
+  line-height: 1.4;
+}
+
+.row {
+  margin: 5px;
+}
+
+nav {
+  background-color: #DEB887;
+}
+
+nav .navbar-brand > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+
+nav .navbar-nav {
+  padding: 1.5rem;
+}
+
+nav .nav-link {
+  padding: 0.6rem;
+  margin: 2rem;
+  border: 1px solid slateblue;
+  font-size: 20px;
+  border-radius: 5%;
+  width: 150px;
+  background-color: black;
+  color: blanchedalmond !important;
+}
+
+nav .btn {
+  -webkit-box-shadow: 2px 2px 2px #a53434;
+          box-shadow: 2px 2px 2px #a53434;
+  background-color: maroon;
+  padding: 0.6rem;
+  margin: 0.5rem;
+  font-size: 20px;
+  border-radius: 80px 20px;
+  color: #d8d814;
+  text-shadow: 1px 1px salmon;
+}
+
+nav .nav-link:hover, nav .btn:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.main {
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem;
+}
+
+.main img {
+  display: block;
+}
+
+.quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+}
+
+.quote h1 {
+  color: #FF7F50;
+  font-family: 'Dancing Script';
+  font-size: 8vw;
+  text-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+  background: crimson;
+}
+
+.quote h1:hover {
+  -webkit-transform: rotate3d(1, 1, 1, 45deg);
+          transform: rotate3d(1, 1, 1, 45deg);
+  -webkit-box-shadow: 5px 5px coral, 10px 10px brown, 15px 15px #682f2f;
+          box-shadow: 5px 5px coral, 10px 10px brown, 15px 15px #682f2f;
+}
+
+.menu h1 {
+  text-align: center;
+  font-size: 8vw;
+  font-style: italic;
+  display: block;
+  text-shadow: 2px 2px 2px brown;
+  background: #DEB887;
+}
+
+.container-fluid {
+  margin-bottom: 10px;
+}
+
+.types, .col p {
+  font-family: 'Open Sans Condensed';
+  font-size: 20px;
+  font-weight: bolder;
+  background: #8f8fbb;
+}
+
+.top .head {
+  text-align: center;
+  font-style: italic;
+  font-size: 8vw;
+  display: block;
+  text-shadow: 2px 2px 2px brown;
+  background: #DEB887;
+}
+
+.top img {
+  width: 100%;
+  height: auto;
+}
+
+.top .col {
+  background: #8f8fbb;
+}
+/*# sourceMappingURL=style.css.map */
