@@ -10,7 +10,8 @@ body{
 
 .row{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1rem;
     margin-left:6rem ;
 }
 
@@ -26,6 +27,7 @@ h1{
     text-align: center;
     color: darkblue;
     text-shadow: 3px 3px 5px grey;
+    font-style: italic;
 }
 
 button:hover{
@@ -34,7 +36,7 @@ button:hover{
 }
 
 #result{
-    font-size: 100px;
+    font-size: 4rem;
     color:black;
     text-align: center;
     margin-top: 40px;
