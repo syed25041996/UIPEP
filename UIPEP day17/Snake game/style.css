@@ -1,0 +1,31 @@
+img{
+    width: 200px;
+    height:200px;
+}
+
+
+h1{
+    font-size: 4.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px orchid;
+    text-align: center;
+}
+
+h3{
+    font-size: 3.6rem;
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px orangered;
+    text-align: center;
+}
+
+.btn{
+    width: 10%;
+    padding: 1.6rem;
+    color: wheat;
+    background: black;
+    box-shadow: 3px 3px goldenrod;
+}
+
+body{
+    background: green
+}
