@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Test API</title>
+</head>
+<body>
+    <h1>Testing HTTP and API</h1>
+    <br>
+    <button id="getText" class="btn btn-primary">GetText</button>
+    <button id="getUsers" class="btn btn-secondary">Get JSON</button>
+    <button id="getPosts" class="btn btn-warning">Get API</button>
+    <div id="output"></div>
+    <form id="addPost">
+        <div>
+            <input type="text" id="title" placeholder="title" size="40">
+        </div>
+        <br>
+        <div>
+            <textarea id="body" placeholder="body" size="70"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit" class="btn btn-success" >
+        </div>
+    </form>
+    <div id="check"></div>
+    <script src="script.js"></script>
+</body>
+</html>

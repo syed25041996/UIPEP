@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 16rem;
+    margin-top: 1.1rem;
+    align-items: center;
+    border: 5px dotted black;
+    background: blanchedalmond;
+    width: 40%;
+    padding: 0.8rem;
+}
+
+button{
+    margin: 1.1rem;
+}
+
+input textarea{
+    margin-left: 5.6rem;
+}
