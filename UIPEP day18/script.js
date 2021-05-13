@@ -12,7 +12,7 @@ function getText(){
     fetch('sample.txt').then(function(res){
         return res.text()
     }).then(function(data){
-        document.getElementById("output").textContent = data
+        document.getElementById("output").innerHTML = data
     })
 }
 

@@ -15,8 +15,8 @@ class Fetch {
 class UI {
     constructor() {
         this.uiContainer = document.getElementById("content");
-        this.city;
-        this.defaultCity = "London";
+        // this.city;
+        // this.defaultCity = "London";
     }
 
     populateUI(data) {
@@ -25,7 +25,7 @@ class UI {
             <div class="card mx-auto mt-5" style="width: 18rem;">
                 <div class="card-body justify-content-center">
                     <h5 class="card-title">${data.name}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Highs of ${data.main.temp_max / 10}. Lows of ${data.main.temp_min / 10}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Current temperature is ${data.main.temp_min / 10} C</h6>
                     <p class="card-text ">Weather conditions are described as: ${data.weather[0].description}</p>
                 </div>
             </div>
