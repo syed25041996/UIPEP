@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register page</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="login-box">
+        <h1>Register</h1>
+        <form action="/register" method="POST" id="register">
+          <div class="textbox">
+              <i class="fas fa-user"></i>
+              <label for="fullname"></label>
+              <input type="text" placeholder="Fullname" name="fullname" id="fullname" required>
+          </div>
+
+          <div class="textbox">
+              <i class="fas fa-envelope"></i>
+              <label for="email"></label>
+              <input type="email" placeholder="Email" name="email" id="email" required>
+          </div>
+          
+          <div class="textbox">
+              <i class="fas fa-lock"></i>
+              <label for="password"></label>
+              <input type="password" placeholder="Password" name="password" id="password" required>
+          </div>
+
+          <input type="submit" class="btn" value="Submit Form" />
+          <a href="login"><h3>Go back to login page</h3></a>
+        </form>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>
