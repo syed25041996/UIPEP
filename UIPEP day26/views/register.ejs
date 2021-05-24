@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register page</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="login-box">
+      <%- include ("./partials/messages"); %>
+        <h1>Register</h1>
+        <form action="/users/register" method="POST" id="register">
+          <div class="textbox">
+              <i class="fas fa-user"></i>
+              <label for="fullname"></label>
+              <input type="text" placeholder="Fullname" name="fullname" id="fullname"  value="<%= typeof name != 'undefined' ? name : '' %>" required>
+          </div>
+
+          <div class="textbox">
+              <i class="fas fa-envelope"></i>
+              <label for="email"></label>
+              <input type="email" placeholder="Email" name="email" id="email" value="<%= typeof email != 'undefined' ? email : '' %>" required>
+          </div>
+          
+          <div class="textbox">
+              <i class="fas fa-lock"></i>
+              <label for="password"></label>
+              <input type="password" placeholder="Password" name="password" id="password" value="<%= typeof password != 'undefined' ? password : '' %>" required>
+          </div>
+
+          <button class="btn">Sign up</button>
+          <a href="login"><h3>Go back to login page</h3></a>
+        </form>
+    </div>
+  </body>
+</html>
